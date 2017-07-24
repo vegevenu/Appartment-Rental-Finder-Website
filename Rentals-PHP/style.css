@@ -1,0 +1,205 @@
+p{ line-height: 1em; }
+h1 {
+    color: orange;
+    font-weight: normal;
+    line-height: 1.1em;
+    margin: 0 0 .5em 0;
+}
+
+h2 {
+    color: orange;
+    font-weight: normal;
+    line-height: 0.1em;
+}
+h3 {
+    color: #000000;
+    font-weight: lighter;
+}
+h4 {
+    color: black;
+    font-weight: normal;
+}
+
+h1{ font-size: 1.7em; }
+h2{ font-size: 1.5em; }
+a{
+    color: orange;
+    text-decoration: none;
+}
+a:hover,
+a:active{ text-decoration: none; }
+
+body{
+    font-family: arial;
+    font-size: 80%;
+    line-height: 1.2em;
+    width: 100%;
+    margin: 0;
+    background-color: steelblue;
+}
+
+label {
+    color: #000000;
+    font-size: larger;
+}
+
+.searchtxt {
+    width: 250px;
+    height: 40px;
+}
+
+.caption {
+    color: orange;
+    font-family: p22_corinthia;
+    font-style: italic;
+    font-size: 40px;
+    font-weight: lighter;
+    margin: 0;
+    position: relative;
+    display: block;
+}
+
+.listings{
+    padding: 10px 0;
+}
+
+.listings ul.properties_list{
+    list-style: none;
+    overflow: hidden;
+    align-self: center;
+}
+
+.listings ul.properties_list li{
+    display: block;
+    width: 340px;
+    height: auto;
+    position: relative;
+    float: left;
+    margin: 0 40px 40px 0;
+}
+
+.listings ul.properties_list li img.property_img{
+    width: 100%;
+    height: auto!important;
+    vertical-align: top;
+}
+
+.listings ul.properties_list li .price{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 15px 20px;
+    background: #ffffff;
+    color: #514d4d;
+    font-family: "lato-bold", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+.listings ul li .property_details{
+    width: 298px;
+    padding: 10px 20px 14px 20px;
+    border-bottom: 1px solid #f2f1f1;
+    border-left: 1px solid #f2f1f1;
+    border-right: 1px solid #f2f1f1;
+
+    transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -o-transition: all .2s linear;
+}
+
+.listings ul li:hover .property_details{
+    border-bottom: 1px solid #95badf;
+    border-left: 1px solid #95badf;
+    border-right: 1px solid #95badf;
+}
+
+.listings ul li .property_details h1{
+    color: navy;
+    font-family: "lato-bold", Helvetica, Arial, sans-serif;
+    font-size: 16px!important;
+    font-weight: bold;
+    margin-bottom: 5px;
+    line-height: 28px;
+}
+
+.listings ul li .property_details h1 a{
+    text-decoration: none;
+    color: crimson;
+}
+
+.listings ul li .property_details h2{
+    color: navy;
+    font-family: "lato-regular", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 26px;
+}
+
+#page{ margin: 20px; }
+
+#logo{
+    width: 45%;
+    margin-top: 5px;
+    font-family: p22_corinthia;
+    color: orange;
+    font-style: italic;
+    font-size: 40px;
+}
+
+#nav{
+    width: 100%;
+    display: inline-block;
+    text-align: right;
+    float: right;
+}
+#nav ul{}
+#nav ul li{
+    display: inline-block;
+    height: 50px;
+}
+#nav ul li a{
+    padding: 20px;
+    background: orange;
+    color: white;
+}
+#nav ul li a:hover{
+    background-color: #ffb424;
+    box-shadow: 0px 1px 1px #666;
+}
+#nav ul li a:active{ background-color: #ff8f00; }
+
+#content{
+    margin: 30px 0;
+    height: 700px;
+    background: white;
+    padding: 20px;
+    clear: both;
+    align-content: center;
+    background-size: cover;
+    background: url('background.jpg') no-repeat bottom center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+#content-sp{
+    margin: 30px 0;
+    height: 1100px;
+    background: white;
+    padding: 20px;
+    clear: both;
+    align-content: center;
+    background-size: cover;
+    background: url('background.jpg') no-repeat bottom center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
